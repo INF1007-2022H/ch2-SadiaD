@@ -6,7 +6,7 @@ for c in mot:
     # TODO completer la fonction ici
     
     
-    nouveau_mot= chr(ord(c))
+    nouveau_mot += chr(ord(c)-32)
     return nouveau_mot
 
 
