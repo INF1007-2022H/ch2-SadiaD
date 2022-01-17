@@ -6,8 +6,8 @@ for c in mot:
     # TODO completer la fonction ici
     
     
-    mot= chr(ord(c))
-    return mot
+    nouveau_mot= chr(ord(c))
+    return nouveau_mot
 
 
 if __name__ == '__main__':
